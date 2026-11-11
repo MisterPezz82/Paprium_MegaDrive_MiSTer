@@ -1,3 +1,29 @@
+# ⚠️ This project is retired: get Paprium for MiSTer from thekoalakoa
+
+**Paprium for MiSTer now lives at [thekoalakoa/Paprium_MiSTer](https://github.com/thekoalakoa/Paprium_MiSTer).**
+Download **[Paprium for MiSTer 0.3.0](https://github.com/thekoalakoa/Paprium_MiSTer/releases/tag/v0.3.0)** there and
+follow their [install guide](https://github.com/thekoalakoa/Paprium_MiSTer/blob/main/docs/INSTALL.md).
+
+- Their zip has the core, the MGL and **Little-Man Firmware 1.0**, the firmware for the cartridge's chip, which the
+  core needs. This repository doesn't host the firmware. Get it from their release. Its source is in the
+  [Pocket repo's `firmware/` folder](https://github.com/thekoalakoa/paprium-pocket/tree/master/firmware)
+  (GPL-3.0-or-later).
+- 0.3.0 makes the core behave like the real cartridge: the music comes from a rebuild of the cart's own synthesiser,
+  so there are no WAVs, `.cue` or `paprium.pcm` any more.
+- **If you used this core,** your save is `saves/MegaDrive/Paprium.sav`. Back it up first. Their core keeps its save
+  at `saves/Paprium/Paprium.sav` and converts a 0.2.x save once on its first start. See their install guide.
+
+This repository is **archived and read-only**. V.08 (below) stays here as the last build of this core, for history
+only, and won't be updated. Please report problems on
+[thekoalakoa's repository](https://github.com/thekoalakoa/Paprium_MiSTer/issues).
+
+**Thank you, [thekoalakoa](https://github.com/thekoalakoa).** What started here as an EverDrive-style port grew, with
+your Pocket and MiSTer cores, into the cartridge itself: its own synthesiser, the CPU MATE partner and the
+Little-Man Firmware. It's your work, and it belongs in your repository. 🙏
+Also see the [Analogue Pocket core](https://github.com/thekoalakoa/paprium-pocket).
+
+---
+
 Paprium for MiSTer Mega Drive
 
 A MiSTer Mega Drive core fork bringing EverDrive-Pro-style Paprium support to MiSTer FPGA: working MCU/cart
